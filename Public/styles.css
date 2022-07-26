@@ -1,0 +1,116 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #ebe4e4;
+    color: #636366 ;
+    margin: 0 5%;
+    font-size: 16px;
+}
+
+header {
+    height: 80px;
+    margin-top:10px;
+}
+
+.header-icon {
+    height: 5vh;
+    padding: 0 4px;
+}
+
+nav > ul > li {
+    padding:0 15px;
+}
+
+main { 
+    margin-top:20px;
+    height: 50px;
+    background-color: white;
+}
+#newsletter {
+    margin-top: 20px;
+    border-top: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+    padding: 40px 0;
+}
+
+.newsletter-input {
+    width: 150px;
+    margin: 0 10px;
+    height: 40px;
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 3px;
+}
+
+#newsletter-subscription {
+    color: white;
+    background-color: #5881CA ;
+}
+
+#info-social-media {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#info-lists {
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+#social-media-icons > img {
+    height: 50px;
+}
+
+#rights-infos {
+    margin-top: 10px;
+}
+
+#rights-infos > img {
+    width: 30px;
+}
+
+#rights-infos > h4 {
+    font-size: 0.7rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-align-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid #BBBBBB;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
