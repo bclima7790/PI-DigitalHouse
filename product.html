@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato&family=Ropa+Sans&display=swap');
+        </style>
+        <link href="/Public/reset.css" rel = "stylesheet">
+        <link href="/Public/styles.css" rel = "stylesheet">
+        <link href="/Public/product.css" rel = "stylesheet">
+        <title>E-commerce do grupo 3 do curso de programação da Digital House</title>
+    </head>
+    <body>
+        <header  class = "flex-row flex-space-between">
+            <div id="logo" class = "flex-row">
+                <img id = "logo-image" src = "Public/Images/Logo.png"> 
+            </div>
+            <nav class = "flex-align-center">
+                <ul id = "nav-items" class = "flex-row" style="list-style: none;">
+                    <li><a href = "#test">LOJA</a></li>
+                    <li><a href = "#test">NOVIDADES</a></li>
+                    <li><a href = "#test">SALE</a></li>
+                    <li><a href = "#test">QUEM SOMOS</a></li>
+                </ul>
+            </nav>
+            <div id = "link-icons" class = "flex-align-center">
+                <a href = "#test"><img id = "search-icon" class = "header-icon" src = "Public/Images/Search-Icon.png"></a>
+                <a href = "#test"><img id = "telephone-icon" class = "header-icon" src = "Public/Images/Telephone-Icon.png"></a>
+                <a href = "#test"><img id = "user-icon" class = "header-icon" src = "Public/Images/User-Icon.png"></a>
+                <a href = "#test"><img id = "cart-icon" class = "header-icon" src = "Public/Images/Cart-Icon.png"></a>
+            </div>
+        </header>
+        <main>
+            <h3>Detalhes do produto selecionado</h3>
+            <section id = "product-info-images" class = "flex-row flex-space-between">
+                <div class = "product-images">
+                    <img class = "product-image" src="./Public/Images/Product-image.PNG">
+                    <img class = "product-image" src="./Public/Images/Product-Image-2.PNG">
+                    <img class = "product-image" src="./Public/Images/Product-Image-3.PNG">
+                </div>
+                <div id = "product-infos">
+                    <h2 id = "product-name">Camiseta Surfing Preto Old</h2>
+                    <h3 id = "product-price" class="color-black">R$ 98,00</h3>
+                    <h4 id = "product-instalments">4x de R$ 24,50</h4>
+                    <div id = "color-size">
+                        <h3>Cor:</h3>
+                        <div id = "product-color">Preto</div>
+                        <h3>Tamanho:</h3>
+                        <div id = "size-list">
+                            <ul id = "list-of-sizes" class = "flex-row" style="list-style: none;">
+                                <li class = "product-size">P</li>
+                                <li class = "product-size">M</li>
+                                <li class = "product-size">G</li>
+                                <li class = "product-size">GG</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer >
+            <section id = "newsletter" class = "flex-row flex-space-between flex-align-end">
+                <div id = "newsletter-texts">
+                    <h3>Newsletter</h3>
+                    <h2>Cadastre-se na nossa newsletter</h2>
+                    <h4>Cadastre-se e ganhe 5%OFF em sua primeira compra</h4>
+                </div>
+                <div id = "newsletter-inputs" class = "flex-row flex-space-between">
+                    <input id = "newsletter-name" name = "newsletter-name" type="text" placeholder="Nome" class = "newsletter-input">
+                    <input id = "newsletter-email" name = "newsletter-email" type="text" placeholder="E-mail" class = "newsletter-input">
+                    <button type = "submit" id = "newsletter-subscription" class = "newsletter-input">Enviar</button>
+                </div>
+            </section>
+            <section id = "info-social-media" class = "flex-row flex-space-between border-bottom-grey">
+                <section id = "info-lists" class = "flex-row flex-space-between">
+                    <div class = "info-list">
+                        <ul style="list-style: none;">
+                            <li class ="text-bold"><a href = "#test">Masculino</a></li>
+                            <li><a href = "#test">Camisetas</a></li>
+                            <li><a href = "#test">Acessórios</a></li>
+                            <li><a href = "#test">Camisas</a></li>
+                            <li><a href = "#test">Bermudas</a></li>
+                            <li><a href = "#test">Casacos</a></li>
+                            <li><a href = "#test">Casacos</a></li>
+                            <li><a href = "#test">Calças</a></li>
+                        </ul>
+                    </div>
+                    <div class = "info-list">
+                        <ul style="list-style: none;">
+                            <li class ="text-bold"><a href = "#test">Explore</a></li>
+                            <li><a href = "#test">Novidades</a></li>
+                            <li><a href = "#test">Magazine</a></li>
+                        </ul>
+                    </div>
+                    <div class = "info-list">
+                        <ul style="list-style: none;">
+                            <li class ="text-bold"><a href = "#test">Institucional</a></li>
+                            <li><a href = "#test">Sobre Loja</a></li>
+                            <li><a href = "#test">Dúvidas Frequentes</a></li>
+                            <li><a href = "#test">Termos e Condições</a></li>
+                            <li><a href = "#test">F.A.Q.</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section id = "social-media-icons">
+                    <img src = "/Public/Images/Social-Media-Icons.png">
+                </section>  
+            </section>
+            <section id = "rights-infos"  class = "flex-row flex-space-between">
+                <h4>2022 Digital House. All rights reserved | CNPJ: 28.442.188/0001-47</h4>
+                <img id = "locker-icon" src = "/Public/Images/Locker-icon.png">
+            </section>  
+        </footer>
+    </body>
+</html>

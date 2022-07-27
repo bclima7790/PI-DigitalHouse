@@ -1,0 +1,35 @@
+.product-infos {
+    margin-top:5px;
+}
+
+.product-image {
+    height: 420px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#list-of-sizes > li {
+    padding:7px 10px;
+    margin: 2px;
+    border: 1px solid white;
+    background-color: #5881CA;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.2.rem;
+}
+
+#color-size{
+    margin-top: 30px;
+}
+
+#product-color {
+    width: 50px;
+    background-color: rgb(65, 59, 59);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding:7px 10px;
+    margin: 2px 0 10px 0;
+}
+
