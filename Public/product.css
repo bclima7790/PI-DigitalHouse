@@ -1,5 +1,7 @@
-.product-infos {
-    margin-top:5px;
+#product-infos {
+    margin-top:5px    
+    height: 100%;
+    width: 50%;
 }
 
 .product-image {
@@ -9,13 +11,13 @@
 }
 
 #list-of-sizes > li {
-    padding:7px 10px;
+    padding:5px 10px;
     margin: 2px;
     border: 1px solid white;
     background-color: #5881CA;
     border-radius: 5px;
     color: white;
-    font-size: 0.2.rem;
+    font-size: 0.9rem;
 }
 
 #color-size{
@@ -29,7 +31,21 @@
     color: white;
     border-radius: 5px;
     text-align: center;
-    padding:7px 10px;
+    padding:5px 10px;
     margin: 2px 0 10px 0;
+    font-size: 0.9rem;
 }
 
+#product-description{
+    margin-top: 20px;
+}
+
+#add-to-cart-button {
+color: white;
+background-color: #5881CA ;
+border: 1px solid white;
+padding: 10px;
+border-radius: 5px;
+width: 80%;
+margin-top:30px;
+}
