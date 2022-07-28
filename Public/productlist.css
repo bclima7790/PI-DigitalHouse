@@ -1,0 +1,49 @@
+main {
+    height: 270px;
+}
+
+#product-list {
+    height: 90%;
+    padding: 2px 0px;
+    margin: 10px 0px;
+}
+
+.product-name-image > img {
+    height: 80px;
+    border-radius: 5px;
+}
+
+.item-headline {
+    margin-top:10px;
+    width: 20%;
+    text-align: center;
+}
+
+.product-headline{
+    margin-top:10px;
+    width: 20%;
+}
+
+#order-buttons{
+    margin: 5px 0px;
+    height: 40px;
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 30px;
+
+
+}
+
+.order-button{
+    width: 25%;
+    color: white;
+    background-color: #5881CA;
+    border: 1px solid white;
+}
+
+#purchase {
+    background-color: rgb(26, 194, 26);
+}
+
+#newsletter {
+    margin-top:100px;
+}
