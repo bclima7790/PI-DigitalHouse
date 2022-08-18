@@ -7,15 +7,15 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Lato&family=Ropa+Sans&display=swap');
         </style>
-        <link href="/Public/reset.css" rel = "stylesheet">
-        <link href="/Public/styles.css" rel = "stylesheet">
-        <link href="/Public/productlist.css" rel = "stylesheet">
+        <link href="../../public/stylesheets/reset/reset.css" rel = "stylesheet">
+        <link href="../../public/stylesheets/general/styles.css" rel = "stylesheet">
+        <link href="../../public/stylesheets/products/product.css" rel = "stylesheet">
         <title>E-commerce do grupo 3 do curso de programação da Digital House</title>
     </head>
     <body>
         <header  class = "flex-row flex-space-between">
             <div id="logo" class = "flex-row">
-                <img id = "logo-image" src = "Public/Images/Logo.png"> 
+                <img id = "logo-image" src = "../../public/images/Logo.png"> 
             </div>
             <nav class = "flex-align-center">
                 <ul id = "nav-items" class = "flex-row" style="list-style: none;">
@@ -26,75 +26,44 @@
                 </ul>
             </nav>
             <div id = "link-icons" class = "flex-align-center">
-                <a href = "#test"><img id = "search-icon" class = "header-icon" src = "Public/Images/Search-Icon.png"></a>
-                <a href = "#test"><img id = "telephone-icon" class = "header-icon" src = "Public/Images/Telephone-Icon.png"></a>
-                <a href = "#test"><img id = "user-icon" class = "header-icon" src = "Public/Images/User-Icon.png"></a>
-                <a href = "#test"><img id = "cart-icon" class = "header-icon" src = "Public/Images/Cart-Icon.png"></a>
+                <a href = "#test"><img id = "search-icon" class = "header-icon" src = "../../public/images/Search-Icon.png"></a>
+                <a href = "#test"><img id = "telephone-icon" class = "header-icon" src = "../../public/images/Telephone-Icon.png"></a>
+                <a href = "#test"><img id = "user-icon" class = "header-icon" src = "../../public/images/User-Icon.png"></a>
+                <a href = "#test"><img id = "cart-icon" class = "header-icon" src = "../../public/images/Cart-Icon.png"></a>
             </div>
         </header>
         <main>
-            <h3>Sacola de Produtos</h3>
-            <section id = "product-list">
-                <div class = "product-line flex-row flex-space-between">
-                    <div class = "product-headline">
-                        <h3><strong>Produto</strong></h3>
-                        <div class = "product-name-image flex-row flex-space-between">
-                            <img class = "product-image" alt = "imagem do produto" src="./Public/Images/Product-image.PNG">
-                            <h3>Camiseta Surfing Preto Old</h3>
+            <h3>Detalhes do produto selecionado</h3>
+            <section id = "product-info-images" class = "flex-row flex-space-between">
+                <div class = "product-images">
+                    <img class = "product-image" src="../../public/images/Product-image.PNG">
+                    <img class = "product-image" src="../../public/images/Product-Image-2.PNG">
+                </div>
+                <div id = "product-infos">
+                    <h2 id = "product-name">Camiseta Surfing Preto Old</h2>
+                    <h3 id = "product-price" class="color-black">R$ 98,00</h3>
+                    <h4 id = "product-instalments">4x de R$ 24,50</h4>
+                    <div id = "color-size">
+                        <h3>Cor:</h3>
+                        <div id = "product-color">Preto</div>
+                        <h3>Tamanho:</h3>
+                        <div id = "size-list">
+                            <ul id = "list-of-sizes" class = "flex-row" style="list-style: none;">
+                                <li class = "product-size">P</li>
+                                <li class = "product-size">M</li>
+                                <li class = "product-size">G</li>
+                                <li class = "product-size">GG</li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Frete</strong></h3>
-                        <h4>R$ 9,99</h4>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Preço</strong></h3>
-                        <h4>R$ 98,00</h4>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Número de itens</strong></h3>
-                        <div class = "quantity-input">
-                            <label for = "quantity">Quantidade</label>
-                            <input class = "quantity" name = "quantity" type="number" min="1" max = "10">
+                        <div id ="product-description">
+                            <h3>Descrição do Produto:</h3>
+                            <p>A camiseta vintage com tinta a base d’água para minimização do impacto ambiental.
+                            Produzido no Brasil | O modelo mede 1,83m e veste M | Para simular seu tamanho, utilize o provador virtual.
+                            </p>
                         </div>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Preço Total</strong></h3>
-                        <h4>R$ 98,00</h4>
+                        <button type = "submit" id = "add-to-cart-button">Adicionar ao carrinho</button>
                     </div>
                 </div>
-                <div class = "product-line flex-row flex-space-between">
-                    <div class = "product-headline">
-                        <h3><strong>Produto</strong></h3>
-                        <div class =  "product-name-image flex-row flex-space-between">
-                            <img class = "product-image" alt = "imagem do produto" src="./Public/Images/Product-Image-2.PNG">
-                            <h3>Camiseta Surfing Preto Old</h3>
-                        </div>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Frete</strong></h3>
-                        <h4>R$ 9,99</h4>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Preço</strong></h3>
-                        <h4>R$ 98,00</h4>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Número de itens</strong></h3>
-                        <div class = "quantity-input">
-                            <label for = "quantity">Quantidade</label>
-                            <input class = "quantity" name = "quantity" type="number" min="1" max = "10">
-                        </div>
-                    </div>
-                    <div class = "item-headline">
-                        <h3><strong>Preço Total</strong></h3>
-                        <h4>R$ 98,00</h4>
-                    </div>
-                </div>
-            </section>
-            <section id = "order-buttons" class = "flex-row flex-space-between">
-                <button type = "submit" id = "keep-buying" class = "order-button">Continuar Comprando</button>
-                <button type = "submit" id = "purchase" class = "order-button">Finalizar Compra</button>
             </section>
         </main>
         <footer >
@@ -142,12 +111,12 @@
                     </div>
                 </section>
                 <section id = "social-media-icons">
-                    <img src = "/Public/Images/Social-Media-Icons.png">
+                    <img src = "../../public/images/Social-Media-Icons.png">
                 </section>  
             </section>
             <section id = "rights-infos"  class = "flex-row flex-space-between">
                 <h4>2022 Digital House. All rights reserved | CNPJ: 28.442.188/0001-47</h4>
-                <img id = "locker-icon" src = "/Public/Images/Locker-icon.png">
+                <img id = "locker-icon" src = "../../public/images/Locker-icon.png">
             </section>  
         </footer>
     </body>
