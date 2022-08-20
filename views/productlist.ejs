@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Lato&family=Ropa+Sans&display=swap');
-        </style>
-        <link href="../../public/stylesheets/reset/reset.css" rel = "stylesheet">
-        <link href="../../public/stylesheets/general/styles.css" rel = "stylesheet">
-        <link href="../../public/stylesheets/products/productlist.css" rel = "stylesheet">
-        <title>E-commerce do grupo 3 do curso de programação da Digital House</title>
-    </head>
+<%- include(./partials/header) %>
+
     <body>
         <header  class = "flex-row flex-space-between">
             <div id="logo" class = "flex-row">
@@ -149,6 +137,5 @@
                 <h4>2022 Digital House. All rights reserved | CNPJ: 28.442.188/0001-47</h4>
                 <img id = "locker-icon" src = "../../public/images/Locker-icon.png">
             </section>  
-        </footer>
-    </body>
-</html>
+
+<%- include(./partials/footer) %>
