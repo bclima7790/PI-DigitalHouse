@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+<%- include("./partials/header") %>
+<link href="/stylesheets/users/styles.css" rel = "stylesheet">
+</head>
+
+    <body>
+        <%- include("./partials/cabecalho") %>
+        
+        <main>
+            <form>
+                <h1>Efetuar Login</h1>
+              <section>
+                    <p>
+                      <label for="email">
+                        <span>E-mail: </span>
+                      </label>
+                      <input type="email" id="email" name="usermail">
+                    </p>
+                    <p>
+                      <label for="password">
+                        <span>Senha: </span>
+                      </label>
+                      <input type="password" id="password" name="password">
+                    </p>
+              </section>
+                <div class="button">
+                    <button type="button" href="./perfil.ejs">Acessar</button>
+                    <button type="button" href="./esqueciSenha.ejs">Esqueci a Senha</button>
+                    <button type="button" href="./cadastro.ejs">Cadastro</button>
+                </div>
+            </form>
+        </main>
+        
+
+        <%- include("./partials/footer") %>

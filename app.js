@@ -13,6 +13,7 @@ var app = express();
 //Utilização das rotas criadas
 const rotasProdutos =  require("./routes/productsRoutes");
 const rotasOrders = require('./routes/ordersRoutes');
+const rotasLogin = require('./routes/userRoutes')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -30,6 +31,7 @@ app.use('/users', usersRouter);
 //Utilização do método use para criação das rotas
 app.use("/produto", rotasProdutos);
 app.use("/checkout", rotasOrders);
+app.use("/login", rotasLogin);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

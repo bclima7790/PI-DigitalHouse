@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+<%- include("./partials/header") %>
+<link href="/stylesheets/users/styles.css" rel = "stylesheet">
+</head>
+
+    <body>
+        <%- include("./partials/cabecalho") %>
+        <main>
+            <div class="container2">
+                <div class="user-image">
+                    <img src="/Images/Logo.png" alt="logo">
+                </div>
+                
+            <div class="container3">
+
+                <div class="content">
+                    <h3 class="text">Nome: &ensp; </h3> <p class="username">tn15-22-grupo-3</p>
+                </div>
+                <div class="content">
+                    <h3 class="email">E-mail: &ensp; </h3> <p class="username">tn15-22-grupo-3@digitalhouse.com.br</p>
+                </div>
+                <div class="content">
+                    <h3 class="text">Endereço: &ensp; </h3> <p class="username">Av. Domingos Odália Filho, 301 - Centro, Osasco - SP, 06010-067</p>
+                </div>
+                <div class="content">
+                    <h3 class="date">Data de Nascimento: &ensp; </h3> <p class="username">29/07/2022</p>
+                </div>
+                <div class="content">
+                    <h3 class="nacionalidade">Nacionalidade: &ensp; </h3> <p class="username">Brasileiro</p>
+                </div>
+            </div>   
+            
+            <button id="botaoSair" type="button" href="./login.ejs">Sair</button>
+         
+    </form>
+        </main>
+
+        <%- include("./partials/footer") %>

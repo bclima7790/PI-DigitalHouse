@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+<%- include("./partials/header") %>
+<link href="/stylesheets/users/styles.css" rel = "stylesheet">
+</head>
+
+    <body>
+        <%- include("./partials/cabecalho") %>
+		
+	<main>
+		<form>
+			<h2>Recuperação de Senha</h2>
+				<div>
+					<label for="email">
+						<span>E-mail: </span>
+					</label>
+					<input type="email" id="email" placeholder="Digite seu e-mail" name="usermail">
+				</div>
+				<p>
+				</p>
+				<div class="button">
+					<button class="recuperar" value="Recuperar" name="SendRecupSenha" type="button" href="">Enviar</button>
+				</div>	
+
+				<div>
+					<a href="./login.ejs"> Clique aqui </a>
+					Para retornar a página de login
+				</div>
+		</form>
+	</main>
+
+	<%- include("./partials/footer") %>
