@@ -36,7 +36,6 @@ app.use("/login", rotasLogin);
 app.use("/cadastro",cadastroRouter);
 
 
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
