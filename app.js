@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/usersRoutes');
 var cadastroRouter = require('./routes/cadastroRoutes');
 
 
@@ -26,8 +25,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Renderização da home
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 //Utilização do método use para criação das rotas
 app.use("/produto", rotasProdutos);
@@ -38,7 +37,7 @@ app.use("/cadastro",cadastroRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404));
+  res.status(404).render("error404");
 });
 
 // error handler
